@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="black_screen">
+
+    <div class="alert_message">Your screen is too small for our website</div>
+</div>
+
+<div class="desktop_header">
+
+<div class="size">
+    <div class="header_wrapper">
+        <div class="logo">LOGO</div>
+        <div class="menu">
+            <div class="menu_item">About</div>
+            <div class="menu_item">Services</div>
+            <div class="menu_item">Clients</div>
+            <div class="menu_item">Contact</div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="mobile_header">
+
+<div class="m_header_wrapper">
+    <div class="mobile_logo">LOGO</div>
+    <div class="show_more" id="show_more_button"><img src="images/more.svg" alt=""></div>
+</div>
+
+</div>
+
+    
+<div class="show_more_menu" id="mobile_menu">
+    <div class="mobile_menu_link">About</div>
+    <div class="mobile_menu_link">Services</div>
+    <div class="mobile_menu_link">Clients</div>
+    <div class="mobile_menu_link">Contact</div>
+</div>
+
+
+
+
+
+<div class="section">
+    <div class="size">
+        <div class="widgets_wrapper">
+            <div class="widget"></div>
+            <div class="widget"></div>
+            <div class="widget"></div>
+            <div class="widget"></div>
+            <div class="widget"></div>
+            <div class="widget"></div>
+            <div class="widget"></div>
+            <div class="widget"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="text_section">
+
+    <div class="size">
+
+
+<div class="heading_title">Welcome to our website, we're pleased to have you here</div>
+<div class="heading_description">
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+</div>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+
+
+$("#show_more_button").click(function () {
+  $("#mobile_menu").toggle("fast");
+});
+
+
+
+</script>
+
+
+
+</body>
+</html>
